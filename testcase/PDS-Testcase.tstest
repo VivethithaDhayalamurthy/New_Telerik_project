@@ -229,7 +229,7 @@
             "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "WebTest10svmn1j3.ayz",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -518,7 +518,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "sL2I5hpfDZdhAokqz68CWMu04/o=",
+                          "uniqueKey": "jYnaRDCquEAoButn5qm1dAFTdt0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "PDSPortalHeaderPyDisplayHarness34Link",
@@ -532,13 +532,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "name=PDSPortalHeader_pyDisplayHarness_34"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=Create Request"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=Create Request"
                                       }
                                     }
                                   ],
@@ -626,7 +632,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "8IVZozKRHygF6DvZ2hxf2UDfiRI=",
+                          "uniqueKey": "jYnaRDCquEAoButn5qm1dAFTdt0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "PDSPortalHeaderPyPortalHarness34Link",
@@ -640,13 +646,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "name=PDSPortalHeader_pyPortalHarness_34"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=Create Request"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=Create Request"
                                       }
                                     }
                                   ],
@@ -2710,7 +2722,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "69fe4d6a-612e-4f76-a1d6-a06ab768bdf9",
+            "Runtime ID": "ed1651e3-fa9f-43ff-8d15-a6634d53c416",
             "Description": "IF (Extract 'TextContent' on 'DoesThisPTag' into DataBindVariable $())",
             "CustomDescription": null,
             "Step": {
@@ -4040,7 +4052,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "b548168e-5fe0-4b23-bb79-fa073efaa02a",
+            "Runtime ID": "52b3797b-b1ac-45d8-bf13-96dd193f908b",
             "Description": "Extract 'TextContent' on 'IsThisPTag' into DataBindVariable $(IsThisPTag)",
             "CustomDescription": null,
             "Step": {
@@ -7029,7 +7041,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3bf8d5ae-6a23-409e-bb5f-729e51eabf95",
+            "Runtime ID": "0b1ef76e-71cc-4365-bfda-8c1faa1ec894",
             "Description": "Extract 'TextContent' on 'IsThisANewLabelTag' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -8274,7 +8286,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "33d817da-0448-4fff-8dc9-bb7d3a167676",
+            "Runtime ID": "ec8e13d5-6859-4cdd-a0d2-acb3183449cf",
             "Description": "Extract 'TextContent' on 'IsThisANewLabelTag0' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -9293,7 +9305,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "eadd1a1e-2dc0-4b32-8b6b-3a2cb836cd77",
+            "Runtime ID": "275e3022-8e75-45ce-81d3-10b365ebb51f",
             "Description": "IF (Extract 'TextContent' on 'AreYouLabelTag' into DataBindVariable $())",
             "CustomDescription": null,
             "Step": {
@@ -10834,7 +10846,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f1e370e3-b4f4-40dd-8c5e-3ed0ff99e318",
+            "Runtime ID": "442933ad-b739-4ccb-a741-b8a939039a45",
             "Description": "Verify element 'PyNoteTextArea' 'is' visible.",
             "CustomDescription": null,
             "Step": {
