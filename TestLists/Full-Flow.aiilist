@@ -1,0 +1,113 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
+  "__value": {
+    "TestListId": "690d54a6-0891-420b-8190-615f7380c560",
+    "Id": "690d54a6-0891-420b-8190-615f7380c560",
+    "TestListName": "Full-Flow",
+    "CreationDate": "2019-05-28T17:44:15+05:30",
+    "OwnerName": null,
+    "Settings": {
+      "__type": "ArtOfTest.WebAii.Core.Settings",
+      "__value": {
+        "Web": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
+          "__value": {
+            "IsProfilingExecution": false,
+            "ExecutingBrowsers": [],
+            "UseMultiBrowserExecution": false,
+            "RecycleBrowser": false,
+            "AspNetDevServerPort": -1,
+            "LocalWebServer": 0,
+            "EnableUILessRequestViewing": false,
+            "WebAppPhysicalPath": "",
+            "DefaultBrowser": 7,
+            "EnableScriptLogging": false,
+            "BaseUrl": "",
+            "KillBrowserProcessOnClose": false,
+            "KillBrowsersBeforeStart": true,
+            "AutoCalibrateBrowsers": false,
+            "UseHttpProxy": false,
+            "EnableSilverlight": false,
+            "VerboseHttpProxy": false,
+            "SilverlightConnectTimeout": 60000,
+            "SilverlightApplicationPath": null
+          }
+        },
+        "Wpf": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
+          "__value": {
+            "DefaultApplicationPath": null
+          }
+        },
+        "CreateLogFile": true,
+        "LogLocation": "C:\\WebAiiLog\\",
+        "QueryEventLogErrorsOnExit": false,
+        "LogAnnotations": false,
+        "SimulatedMouseMoveSpeed": 0.3,
+        "ExecuteInDevelopmentTests": false,
+        "WaitCheckInterval": 500,
+        "ElementWaitTimeout": 15000,
+        "ExecuteCommandTimeout": 20000,
+        "ExecutionDelay": 0,
+        "RerunFailedTests": false,
+        "UnexpectedDialogAction": 2,
+        "AnnotateExecution": false,
+        "AnnotationMode": 0,
+        "RecordingMode": 2,
+        "RecordingCodec": 0,
+        "RecordingScale": 100,
+        "RecordingFPS": 5,
+        "RecordingOutputLocation": "",
+        "RecordingSizeLimit": 0,
+        "XMultiMgr": true,
+        "ClientReadyTimeout": 60000,
+        "DisableDialogMonitoring": false,
+        "RunnerResponseTimeout": 0.0
+      }
+    },
+    "Tests": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "efef139f-db36-4c40-8f4f-4f6c40cad48a",
+          "Path": "testcase\\Equipment-Product-Supplies.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "0ca44f19-0206-4b5d-be04-28a576b8a50e",
+          "Path": "testcase\\Maintenance-Service.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "8966b8f7-1906-42ef-9b08-8fca149371aa",
+          "Path": "testcase\\Professional-Service-Temp-Staffing.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "c73ec427-bd1e-4b8f-8bbd-aa0909e4477b",
+          "Path": "testcase\\Software-Online-Content.tstest",
+          "PathType": 0
+        }
+      }
+    ],
+    "Filter": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Filter",
+      "__value": {
+        "Keys": [],
+        "Comparisons": [],
+        "Values": []
+      }
+    },
+    "ListType": 0,
+    "ProjectId": "e87d2fb2-f4af-4f71-ad24-cebabba95421"
+  }
+}

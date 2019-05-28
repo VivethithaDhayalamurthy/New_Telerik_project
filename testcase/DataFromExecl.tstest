@@ -478,7 +478,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "SimulateRealClick": false,
+                "SimulateRealClick": true,
                 "ScrollToVisibleType": 0,
                 "UsejQuery": false,
                 "ClosesBrowser": false,
@@ -518,7 +518,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "sL2I5hpfDZdhAokqz68CWMu04/o=",
+                          "uniqueKey": "jYnaRDCquEAoButn5qm1dAFTdt0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "PDSPortalHeaderPyDisplayHarness34Link",
@@ -532,13 +532,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "name=PDSPortalHeader_pyDisplayHarness_34"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=Create Request"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=Create Request"
                                       }
                                     }
                                   ],
@@ -586,7 +592,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "SimulateRealClick": false,
+                "SimulateRealClick": true,
                 "ScrollToVisibleType": 0,
                 "UsejQuery": false,
                 "ClosesBrowser": false,
@@ -626,7 +632,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "8IVZozKRHygF6DvZ2hxf2UDfiRI=",
+                          "uniqueKey": "jYnaRDCquEAoButn5qm1dAFTdt0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "PDSPortalHeaderPyPortalHarness34Link",
@@ -640,13 +646,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "name=PDSPortalHeader_pyPortalHarness_34"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=Create Request"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=Create Request"
                                       }
                                     }
                                   ],
@@ -1309,7 +1321,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "w9WwtzTtH7vnAWIIs6j0xJ57OqE=",
+                          "uniqueKey": "KNIEkIvvpWqp/05Z8kyTcOIkJMI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "x30Link",
@@ -1323,13 +1335,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=30"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=31"
                                       }
                                     }
                                   ],
@@ -8045,30 +8057,22 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "1cbcf4e6-c03c-4380-a4ca-ff2b35c4e0b4",
-            "Description": "Wait '5000' msec for url:'https://pdsllc-stg1.pegacloud.io/prweb'",
+            "Runtime ID": "79064fb1-76d9-427f-b265-1409bb3a2d68",
+            "Description": "Wait for '250' msec.",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.WaitForUrlActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SleepActionDescriptor",
               "__value": {
-                "WaitForUrl": "https://pdsllc-stg1.pegacloud.io/prweb",
-                "IsPartial": true,
-                "WaitTimeout": 5000,
+                "WaitTime": 250,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "UsejQuery": false,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
                 "Pause": 0,
                 "RunsAgainstVersion": "",
-                "RunsAgainstVersionCompare": 2,
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersionCompare": "GreaterThan"
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {},
@@ -8083,7 +8087,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "DataFromExeclcpctzpf4.huk",
+            "StepImageKey": "DataFromExeclhxu4cmj2.psh",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

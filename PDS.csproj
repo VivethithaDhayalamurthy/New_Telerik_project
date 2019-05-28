@@ -1,0 +1,98 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <RootNamespace>PDS</RootNamespace>
+    <AssemblyName>PDS</AssemblyName>
+    <OutputPath>bin</OutputPath>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArtOfTest.WebAii, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="ArtOfTest.WebAii.Design, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="Telerik.TestingFramework.Controls.KendoUI, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.TestStudio.Translators.Common, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Html, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Xaml, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.WebAii.Controls.Xaml.Wpf, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=528163f3e645de45">
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pegalogin.tstest" />
+    <None Include="Settings.aiis" />
+    <None Include="testcase\DataFromExecl.tstest" />
+    <None Include="testcase\Equipment-Product-Supplies.tstest" />
+    <None Include="testcase\Login.tstest" />
+    <None Include="testcase\Maintenance-Service.tstest" />
+    <None Include="testcase\PDS-Testcase.tstest" />
+    <None Include="testcase\Professional-Service-Temp-Staffing.tstest" />
+    <None Include="testcase\Software-Online-Content.tstest" />
+    <None Include="testcase\WebTest.tstest" />
+    <Compile Include="pegalogin.tstest.cs">
+      <DependentUpon>pegalogin.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="testcase\Equipment-Product-Supplies.tstest.cs">
+      <DependentUpon>Equipment-Product-Supplies.tstest</DependentUpon>
+    </Compile>
+    <Compile Include="testcase\Login.tstest.cs">
+      <DependentUpon>Login.tstest</DependentUpon>
+    </Compile>
+    <Folder Include="testcase" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pegalogin.resx">
+      <DependentUpon>pegalogin.tstest</DependentUpon>
+    </None>
+    <None Include="testcase\DataFromExecl.resx">
+      <DependentUpon>DataFromExecl.tstest</DependentUpon>
+    </None>
+    <None Include="testcase\Equipment-Product-Supplies.resx">
+      <DependentUpon>Equipment-Product-Supplies.tstest</DependentUpon>
+    </None>
+    <None Include="testcase\Login.resx">
+      <DependentUpon>Login.tstest</DependentUpon>
+    </None>
+    <None Include="testcase\Maintenance-Service.resx">
+      <DependentUpon>Maintenance-Service.tstest</DependentUpon>
+    </None>
+    <None Include="testcase\PDS-Testcase.resx">
+      <DependentUpon>PDS-Testcase.tstest</DependentUpon>
+    </None>
+    <None Include="testcase\Professional-Service-Temp-Staffing.resx">
+      <DependentUpon>Professional-Service-Temp-Staffing.tstest</DependentUpon>
+    </None>
+    <None Include="testcase\Software-Online-Content.resx">
+      <DependentUpon>Software-Online-Content.tstest</DependentUpon>
+    </None>
+    <None Include="testcase\WebTest.resx">
+      <DependentUpon>WebTest.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Name="PDS" Version="2019.1.327.0" VsProjectLanguage="CSharp" xmlns="" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Condition="true" Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Condition="true" Project="$(MSBuildExtensionsPath)\Telerik\WebUITestStudio\Telerik.WebUITestStudio.targets" />
+</Project>

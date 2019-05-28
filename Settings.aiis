@@ -195,8 +195,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "e87d2fb2-f4af-4f71-ad24-cebabba95421",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/VivethithaDhayalamurthy/TelerikProject.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/VivethithaDhayalamurthy/TelerikProject.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -211,7 +223,7 @@
       "Telerik.TestStudio.Translators.Common, Version=2019.1.408.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
     ],
-    "ScheduleServerUrl": "http://localhost:8009",
+    "ScheduleServerUrl": "http://localhost:8009/",
     "IsScheduleServerRemote": false,
     "NotificationSettings": null,
     "ProjectVersion": "2019.1.327.0",
