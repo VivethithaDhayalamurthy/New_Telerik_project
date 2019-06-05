@@ -1185,7 +1185,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "8bc4b5df-442e-4239-9bf9-c6ac037d908a",
+            "Runtime ID": "054743ba-e788-4533-8108-e0fb1f6e1779",
             "Description": "Click 'Pzspacer11792674401GifGifImage'",
             "CustomDescription": null,
             "Step": {
@@ -1284,7 +1284,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Software-Online-Contentpjykt1zq.4if",
+            "StepImageKey": "Software-Online-Contentele5fqji.hxx",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1293,9 +1293,459 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f333e58d-a5c7-4ca3-b7f9-efe048d333ee",
-            "Description": "Click 'x30Link'",
+            "Runtime ID": "c14473a7-af9d-43ed-a6ad-ad544aff929a",
+            "Description": "Desktop command: LeftClick on MonDropSelect",
             "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": true,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                          "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=createNewWork&flowClass=PDS-CLM-Work-VendorContract&className=PDS-CLM-Work-VendorContract&flowName=pyStartCase&api=createNewWork&contentID=f4befa37-c19a-85d9-5655-450da9f90db1&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&pzHarnessID=HID8976952E6D2B5EDE6EB2DD5F7DFE01CC",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "New",
+                          "CompareMode": 5,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "New8"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "3w7XwNi3PANrsWFa0gvU3/bWvqE=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "MonDropSelect",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=monDrop"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=select"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/thead[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/select[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 15,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Software-Online-Content2wgnsrqc.fzz",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c7554eeb-1d3f-4979-83fa-e0255bc9627f",
+            "Description": "Select 'ByText' option '' on 'MonDropSelect' - DataDriven: [$(Month)]",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SelectDropDownActionDescriptor",
+              "__value": {
+                "SelectType": 2,
+                "SelectionText": "",
+                "SelectionValue": "",
+                "SelectionIndex": 4,
+                "InvokeSelectionChanged": true,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": true,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "dropDown": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "dropDown",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                          "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=createNewWork&flowClass=PDS-CLM-Work-VendorContract&className=PDS-CLM-Work-VendorContract&flowName=pyStartCase&api=createNewWork&contentID=261f3b35-8121-4380-cce6-8569682eef7e&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&pzHarnessID=HID7ABD53CD282B6A006DFB08C1D709CC54",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "New",
+                          "CompareMode": 5,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "New9"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "3w7XwNi3PANrsWFa0gvU3/bWvqE=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "MonDropSelect",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=monDrop"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=select"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/thead[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/select[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {
+                  "SelectionText": "$(Month)"
+                }
+              }
+            },
+            "Enabled": true,
+            "Order": 16,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Software-Online-Contentuodriyku.wnb",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "0b55c3ec-7a77-4ea0-beee-2e8e57e893f4",
+            "Description": "Desktop command: LeftClick on YearDropSelect",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": true,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                          "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=createNewWork&flowClass=PDS-CLM-Work-VendorContract&className=PDS-CLM-Work-VendorContract&flowName=pyStartCase&api=createNewWork&contentID=f4befa37-c19a-85d9-5655-450da9f90db1&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&pzHarnessID=HID8976952E6D2B5EDE6EB2DD5F7DFE01CC",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "New",
+                          "CompareMode": 5,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "New8"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "OcVbE3vCVYtQj2GtpEtF+Cw91es=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "YearDropSelect",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=yearDrop"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=select"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/thead[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/select[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 17,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Software-Online-Contentg2w4lngs.no1",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "42f04c32-7505-4402-bdc9-6a723a62feee",
+            "Description": "Select 'ByText' option '' on 'YearDropSelect' - DataDriven: [$(Year)]",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SelectDropDownActionDescriptor",
+              "__value": {
+                "SelectType": 2,
+                "SelectionText": "",
+                "SelectionValue": "",
+                "SelectionIndex": 5,
+                "InvokeSelectionChanged": true,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": true,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "dropDown": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "dropDown",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                          "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=createNewWork&flowClass=PDS-CLM-Work-VendorContract&className=PDS-CLM-Work-VendorContract&flowName=pyStartCase&api=createNewWork&contentID=261f3b35-8121-4380-cce6-8569682eef7e&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&pzHarnessID=HID7ABD53CD282B6A006DFB08C1D709CC54",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "New",
+                          "CompareMode": 5,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "New9"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "OcVbE3vCVYtQj2GtpEtF+Cw91es=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "YearDropSelect",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=yearDrop"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=select"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/thead[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/select[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {
+                  "SelectionText": "$(Year)"
+                }
+              }
+            },
+            "Enabled": true,
+            "Order": 18,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Software-Online-Contentkst3wwm1.zes",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "facc5858-10f9-4b9f-80f9-7e7e1c00a2c1",
+            "Description": "Click 'x30Link'",
+            "CustomDescription": "Click 'x30Link'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
@@ -1342,7 +1792,7 @@
                           "uniqueKey": "KNIEkIvvpWqp/05Z8kyTcOIkJMI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "x30Link",
+                          "Name": "x30Link0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1370,7 +1820,9 @@
                             }
                           ],
                           "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/tbody[1]/tr[5]/td[5]/a[1]",
-                          "DataBindingExpressions": {}
+                          "DataBindingExpressions": {
+                            "Expression": "tagname=a,TextContent=$(Date)"
+                          }
                         }
                       },
                       "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
@@ -1388,11 +1840,11 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Software-Online-Content2ozzqsgc.05z",
+            "StepImageKey": "Software-Online-Contentxii454gl.rhx",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1401,7 +1853,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f23a605e-2c6b-42a6-bf10-6a5adaccca20",
+            "Runtime ID": "afaf9a25-ffac-4fc5-8b72-f9bbe226ef35",
             "Description": "Wait for '250' msec.",
             "CustomDescription": null,
             "Step": {
@@ -1427,11 +1879,11 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 20,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Software-Online-Contentz5kz2ytg.z2b",
+            "StepImageKey": "Software-Online-Contentztgs2qqq.u5y",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1546,7 +1998,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 21,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1585,7 +2037,7 @@
               }
             },
             "Enabled": true,
-            "Order": 18,
+            "Order": 22,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1704,7 +2156,7 @@
               }
             },
             "Enabled": true,
-            "Order": 19,
+            "Order": 23,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1743,7 +2195,7 @@
               }
             },
             "Enabled": true,
-            "Order": 20,
+            "Order": 24,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1845,7 +2297,7 @@
               }
             },
             "Enabled": true,
-            "Order": 21,
+            "Order": 25,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1964,7 +2416,7 @@
               }
             },
             "Enabled": true,
-            "Order": 22,
+            "Order": 26,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2003,7 +2455,7 @@
               }
             },
             "Enabled": true,
-            "Order": 23,
+            "Order": 27,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2122,7 +2574,7 @@
               }
             },
             "Enabled": true,
-            "Order": 24,
+            "Order": 28,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2161,7 +2613,7 @@
               }
             },
             "Enabled": true,
-            "Order": 25,
+            "Order": 29,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2271,7 +2723,7 @@
               }
             },
             "Enabled": true,
-            "Order": 26,
+            "Order": 30,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2379,7 +2831,7 @@
               }
             },
             "Enabled": true,
-            "Order": 27,
+            "Order": 31,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2483,7 +2935,7 @@
               }
             },
             "Enabled": true,
-            "Order": 28,
+            "Order": 32,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2596,7 +3048,7 @@
               }
             },
             "Enabled": true,
-            "Order": 29,
+            "Order": 33,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2635,7 +3087,7 @@
               }
             },
             "Enabled": true,
-            "Order": 30,
+            "Order": 34,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2748,7 +3200,7 @@
               }
             },
             "Enabled": true,
-            "Order": 31,
+            "Order": 35,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2861,7 +3313,7 @@
               }
             },
             "Enabled": true,
-            "Order": 32,
+            "Order": 36,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -2874,7 +3326,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "27b79120-006d-423b-bc1d-1729f73e5257",
+            "Runtime ID": "cf8174ef-2a8a-4256-9f0f-f429c5614251",
             "Description": "Extract 'TextContent' on 'DoesThisSpan' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -4287,7 +4739,7 @@
               }
             },
             "Enabled": true,
-            "Order": 33,
+            "Order": 37,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4417,7 +4869,7 @@
               }
             },
             "Enabled": true,
-            "Order": 34,
+            "Order": 38,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4542,7 +4994,7 @@
               }
             },
             "Enabled": true,
-            "Order": 35,
+            "Order": 39,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4667,7 +5119,7 @@
               }
             },
             "Enabled": true,
-            "Order": 36,
+            "Order": 40,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4780,7 +5232,7 @@
               }
             },
             "Enabled": true,
-            "Order": 37,
+            "Order": 41,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -4905,7 +5357,7 @@
               }
             },
             "Enabled": true,
-            "Order": 38,
+            "Order": 42,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5030,7 +5482,7 @@
               }
             },
             "Enabled": true,
-            "Order": 39,
+            "Order": 43,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5155,7 +5607,7 @@
               }
             },
             "Enabled": true,
-            "Order": 40,
+            "Order": 44,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5280,7 +5732,7 @@
               }
             },
             "Enabled": true,
-            "Order": 41,
+            "Order": 45,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5405,7 +5857,7 @@
               }
             },
             "Enabled": true,
-            "Order": 42,
+            "Order": 46,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5530,7 +5982,7 @@
               }
             },
             "Enabled": true,
-            "Order": 43,
+            "Order": 47,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5655,7 +6107,7 @@
               }
             },
             "Enabled": true,
-            "Order": 44,
+            "Order": 48,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5780,7 +6232,7 @@
               }
             },
             "Enabled": true,
-            "Order": 45,
+            "Order": 49,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5910,7 +6362,7 @@
               }
             },
             "Enabled": true,
-            "Order": 46,
+            "Order": 50,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5949,7 +6401,7 @@
               }
             },
             "Enabled": true,
-            "Order": 47,
+            "Order": 51,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -5962,7 +6414,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "62e60f57-30ec-45dc-b8c8-8803773111db",
+            "Runtime ID": "bd982671-133f-4fb8-8ff2-886f9d02c43b",
             "Description": "Extract 'TextContent' on 'IsThisANewLabelTag' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -7699,7 +8151,7 @@
                                                                                                                                       {
                                                                                                                                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                                                                                                                                         "__value": {
-                                                                                                                                          "Runtime ID": "539196f1-7a49-48f3-8b7f-77a8d44bb34d",
+                                                                                                                                          "Runtime ID": "a5d6619a-a831-4b9c-91e6-51e92858435c",
                                                                                                                                           "Description": "Verify element 'ExpirationDateText' 'is' visible.",
                                                                                                                                           "CustomDescription": null,
                                                                                                                                           "Step": {
@@ -7810,7 +8262,7 @@
                                                                                                                                           "Id": "",
                                                                                                                                           "StepState": 0,
                                                                                                                                           "ContinueOnFailure": false,
-                                                                                                                                          "StepImageKey": "WebTest1oy3kol1k.jb0",
+                                                                                                                                          "StepImageKey": "Software-Online-Contentpxeuyg1u.wuv",
                                                                                                                                           "QcId": 0,
                                                                                                                                           "QcVersionStamp": 0,
                                                                                                                                           "Version": 200
@@ -7819,24 +8271,33 @@
                                                                                                                                       {
                                                                                                                                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                                                                                                                                         "__value": {
-                                                                                                                                          "Runtime ID": "dc2a8351-080b-4fa4-9edb-b0eeff6be6bf",
-                                                                                                                                          "Description": "Desktop command: LeftClick on Pzspacer11792674401GifGifImage",
-                                                                                                                                          "CustomDescription": "Desktop command: LeftClick on Pzspacer11792674401GifGifImage",
+                                                                                                                                          "Runtime ID": "a2045946-56f1-467b-aaee-053d0ecc3caa",
+                                                                                                                                          "Description": "Enter text '' in 'ExpirationDateText' - DataDriven: [$(Expiration date )]",
+                                                                                                                                          "CustomDescription": null,
                                                                                                                                           "Step": {
-                                                                                                                                            "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                                                                                                            "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
                                                                                                                                             "__value": {
-                                                                                                                                              "Focus": true,
-                                                                                                                                              "DesktopActionType": 0,
-                                                                                                                                              "OffSet": {
-                                                                                                                                                "__type": "ArtOfTest.Common.Design.ActionPoint",
-                                                                                                                                                "__value": "0, 0, Percentage, AbsoluteCenter"
+                                                                                                                                              "RawText": "",
+                                                                                                                                              "SimulateRealTyping": false,
+                                                                                                                                              "TypingSpeed": 50,
+                                                                                                                                              "KeyHoldTime": 100,
+                                                                                                                                              "IsPassword": false,
+                                                                                                                                              "TypingInfo": {
+                                                                                                                                                "ElementText": "",
+                                                                                                                                                "TypedText": "Backspace",
+                                                                                                                                                "CaretPosition": 0,
+                                                                                                                                                "IsTextArea": false,
+                                                                                                                                                "IsBackSpace": false
                                                                                                                                               },
+                                                                                                                                              "Encrypt": false,
+                                                                                                                                              "SupportUnicode": true,
+                                                                                                                                              "ScrollToVisibleType": 0,
                                                                                                                                               "UsejQuery": false,
                                                                                                                                               "ClosesBrowser": false,
                                                                                                                                               "AjaxTimeout": 0,
                                                                                                                                               "Pause": 0,
                                                                                                                                               "WaitOnElementsTimeout": 30000,
-                                                                                                                                              "UseStepWaitOnElementsTimout": true,
+                                                                                                                                              "UseStepWaitOnElementsTimout": false,
                                                                                                                                               "WaitOnElements": true,
                                                                                                                                               "RunsAgainstVersion": "",
                                                                                                                                               "Constraints": {
@@ -7846,33 +8307,33 @@
                                                                                                                                                 }
                                                                                                                                               },
                                                                                                                                               "Elements": {
-                                                                                                                                                "target": {
+                                                                                                                                                "textTarget": {
                                                                                                                                                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                                                                                                                                                   "__value": {
-                                                                                                                                                    "Name": "target",
+                                                                                                                                                    "Name": "textTarget",
                                                                                                                                                     "Region": null,
                                                                                                                                                     "Page": {
                                                                                                                                                       "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                                                                                                                                                       "__value": {
                                                                                                                                                         "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
-                                                                                                                                                        "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3454!REQUESTFORMSCREENFLOW&contentID=08bd9ae1-94c6-e009-3360-808b0acbc968&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF1073D8BEF9049D3407230FD97706016",
+                                                                                                                                                        "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3641!REQUESTFORMSCREENFLOW&contentID=a0c890bc-e8c1-44a3-fa76-5e76fa93dd24&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDB0641D4A8EAF3DA571A84BAFA444C900",
                                                                                                                                                         "BaseUrl": "",
                                                                                                                                                         "EquivalentUrls": [],
                                                                                                                                                         "Fragment": "",
-                                                                                                                                                        "Title": "Vendor Contract VC-3454",
+                                                                                                                                                        "Title": "Vendor Contract VC-3641",
                                                                                                                                                         "CompareMode": 5,
                                                                                                                                                         "AlwaysUseTitleInCompare": false,
-                                                                                                                                                        "FriendlyName": "VendorContractVC34541"
+                                                                                                                                                        "FriendlyName": "VendorContractVC36413"
                                                                                                                                                       }
                                                                                                                                                     },
                                                                                                                                                     "Frame": null,
                                                                                                                                                     "FindExpression": {
-                                                                                                                                                      "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                                                                                                                      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                                                                                                                                       "__value": {
-                                                                                                                                                        "uniqueKey": "p1Tv3Q+KkTSWicM+Vauj9++VV3Q=",
+                                                                                                                                                        "uniqueKey": "fzAZITY+JGa3i7pZlak8U+79UKk=",
                                                                                                                                                         "NodeKind": 4,
                                                                                                                                                         "TechnologyType": 1,
-                                                                                                                                                        "Name": "Pzspacer11792674401GifGifImage",
+                                                                                                                                                        "Name": "ExpirationDateText",
                                                                                                                                                         "FindExpressions": [
                                                                                                                                                           {
                                                                                                                                                             "Key": 1,
@@ -7883,13 +8344,13 @@
                                                                                                                                                                   {
                                                                                                                                                                     "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                                                                                                                                     "__value": {
-                                                                                                                                                                      "Clause": "TagName=img"
+                                                                                                                                                                      "Clause": "id=ExpirationDate"
                                                                                                                                                                     }
                                                                                                                                                                   },
                                                                                                                                                                   {
                                                                                                                                                                     "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                                                                                                                                     "__value": {
-                                                                                                                                                                      "Clause": "data-test-id=20181203031603081520991-DatePicker"
+                                                                                                                                                                      "Clause": "tagname=input"
                                                                                                                                                                     }
                                                                                                                                                                   }
                                                                                                                                                                 ],
@@ -7899,11 +8360,11 @@
                                                                                                                                                             }
                                                                                                                                                           }
                                                                                                                                                         ],
-                                                                                                                                                        "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/img[1]",
+                                                                                                                                                        "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/input[1]",
                                                                                                                                                         "DataBindingExpressions": {}
                                                                                                                                                       }
                                                                                                                                                     },
-                                                                                                                                                    "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlImage",
+                                                                                                                                                    "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
                                                                                                                                                     "IsIndependent": false,
                                                                                                                                                     "DomStateKey": "",
                                                                                                                                                     "TechnologyType": 1,
@@ -7914,7 +8375,11 @@
                                                                                                                                               "StepType": 4,
                                                                                                                                               "LogMessageOnFailure": "",
                                                                                                                                               "EditorType": "",
-                                                                                                                                              "DataBindingExpressions": {}
+                                                                                                                                              "DataBindingExpressions": {
+                                                                                                                                                "Text": "$(Expiration date )"
+                                                                                                                                              },
+                                                                                                                                              "_canEncrypt": false,
+                                                                                                                                              "_cipher": null
                                                                                                                                             }
                                                                                                                                           },
                                                                                                                                           "Enabled": true,
@@ -7922,7 +8387,7 @@
                                                                                                                                           "Id": "",
                                                                                                                                           "StepState": 0,
                                                                                                                                           "ContinueOnFailure": false,
-                                                                                                                                          "StepImageKey": "WebTest14khpccyw.i5l",
+                                                                                                                                          "StepImageKey": "Software-Online-Contentzu5z3ahw.w4j",
                                                                                                                                           "QcId": 0,
                                                                                                                                           "QcVersionStamp": 0,
                                                                                                                                           "Version": 200
@@ -8308,7 +8773,7 @@
                                                                                                                                       {
                                                                                                                                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                                                                                                                                         "__value": {
-                                                                                                                                          "Runtime ID": "08b98d13-fe3c-4844-9615-63e8b5dbfc1a",
+                                                                                                                                          "Runtime ID": "4411d856-e32b-42ef-8d68-61edb6e752bc",
                                                                                                                                           "Description": "Verify element 'ExpirationDateText' 'is' visible.",
                                                                                                                                           "CustomDescription": null,
                                                                                                                                           "Step": {
@@ -8419,7 +8884,7 @@
                                                                                                                                           "Id": "",
                                                                                                                                           "StepState": 0,
                                                                                                                                           "ContinueOnFailure": false,
-                                                                                                                                          "StepImageKey": "WebTest1gjhexzh3.203",
+                                                                                                                                          "StepImageKey": "Software-Online-Content00htoqn4.azx",
                                                                                                                                           "QcId": 0,
                                                                                                                                           "QcVersionStamp": 0,
                                                                                                                                           "Version": 200
@@ -8428,130 +8893,27 @@
                                                                                                                                       {
                                                                                                                                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                                                                                                                                         "__value": {
-                                                                                                                                          "Runtime ID": "78c9e4bd-9b92-46fc-9a4e-d86008abbb32",
-                                                                                                                                          "Description": "Desktop command: LeftClick on Pzspacer11792674401GifGifImage",
+                                                                                                                                          "Runtime ID": "e33dcaf5-e707-4385-a10a-0512083c054a",
+                                                                                                                                          "Description": "Enter text '' in 'ExpirationDateText' - DataDriven: [$(Expiration date )]",
                                                                                                                                           "CustomDescription": null,
                                                                                                                                           "Step": {
-                                                                                                                                            "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                                                                                                            "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
                                                                                                                                             "__value": {
-                                                                                                                                              "Focus": true,
-                                                                                                                                              "DesktopActionType": 0,
-                                                                                                                                              "OffSet": {
-                                                                                                                                                "__type": "ArtOfTest.Common.Design.ActionPoint",
-                                                                                                                                                "__value": "0, 0, Percentage, AbsoluteCenter"
+                                                                                                                                              "RawText": "",
+                                                                                                                                              "SimulateRealTyping": false,
+                                                                                                                                              "TypingSpeed": 50,
+                                                                                                                                              "KeyHoldTime": 100,
+                                                                                                                                              "IsPassword": false,
+                                                                                                                                              "TypingInfo": {
+                                                                                                                                                "ElementText": "",
+                                                                                                                                                "TypedText": "Backspace",
+                                                                                                                                                "CaretPosition": 0,
+                                                                                                                                                "IsTextArea": false,
+                                                                                                                                                "IsBackSpace": false
                                                                                                                                               },
-                                                                                                                                              "UsejQuery": false,
-                                                                                                                                              "ClosesBrowser": false,
-                                                                                                                                              "AjaxTimeout": 0,
-                                                                                                                                              "Pause": 0,
-                                                                                                                                              "WaitOnElementsTimeout": 30000,
-                                                                                                                                              "UseStepWaitOnElementsTimout": true,
-                                                                                                                                              "WaitOnElements": true,
-                                                                                                                                              "RunsAgainstVersion": "",
-                                                                                                                                              "Constraints": {
-                                                                                                                                                "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                                                                                                                                                "__value": {
-                                                                                                                                                  "ConstraintValues": {}
-                                                                                                                                                }
-                                                                                                                                              },
-                                                                                                                                              "Elements": {
-                                                                                                                                                "target": {
-                                                                                                                                                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                                                                                                                                                  "__value": {
-                                                                                                                                                    "Name": "target",
-                                                                                                                                                    "Region": null,
-                                                                                                                                                    "Page": {
-                                                                                                                                                      "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                                                                                                                                                      "__value": {
-                                                                                                                                                        "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
-                                                                                                                                                        "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3454!REQUESTFORMSCREENFLOW&contentID=08bd9ae1-94c6-e009-3360-808b0acbc968&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF1073D8BEF9049D3407230FD97706016",
-                                                                                                                                                        "BaseUrl": "",
-                                                                                                                                                        "EquivalentUrls": [],
-                                                                                                                                                        "Fragment": "",
-                                                                                                                                                        "Title": "Vendor Contract VC-3454",
-                                                                                                                                                        "CompareMode": 5,
-                                                                                                                                                        "AlwaysUseTitleInCompare": false,
-                                                                                                                                                        "FriendlyName": "VendorContractVC34541"
-                                                                                                                                                      }
-                                                                                                                                                    },
-                                                                                                                                                    "Frame": null,
-                                                                                                                                                    "FindExpression": {
-                                                                                                                                                      "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-                                                                                                                                                      "__value": {
-                                                                                                                                                        "uniqueKey": "p1Tv3Q+KkTSWicM+Vauj9++VV3Q=",
-                                                                                                                                                        "NodeKind": 4,
-                                                                                                                                                        "TechnologyType": 1,
-                                                                                                                                                        "Name": "Pzspacer11792674401GifGifImage",
-                                                                                                                                                        "FindExpressions": [
-                                                                                                                                                          {
-                                                                                                                                                            "Key": 1,
-                                                                                                                                                            "Value": {
-                                                                                                                                                              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                                                                                                                                              "__value": {
-                                                                                                                                                                "Clauses": [
-                                                                                                                                                                  {
-                                                                                                                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                                                                                                                                    "__value": {
-                                                                                                                                                                      "Clause": "TagName=img"
-                                                                                                                                                                    }
-                                                                                                                                                                  },
-                                                                                                                                                                  {
-                                                                                                                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                                                                                                                                    "__value": {
-                                                                                                                                                                      "Clause": "data-test-id=20181203031603081520991-DatePicker"
-                                                                                                                                                                    }
-                                                                                                                                                                  }
-                                                                                                                                                                ],
-                                                                                                                                                                "Constraints": [],
-                                                                                                                                                                "ChainStops": []
-                                                                                                                                                              }
-                                                                                                                                                            }
-                                                                                                                                                          }
-                                                                                                                                                        ],
-                                                                                                                                                        "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/img[1]",
-                                                                                                                                                        "DataBindingExpressions": {}
-                                                                                                                                                      }
-                                                                                                                                                    },
-                                                                                                                                                    "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlImage",
-                                                                                                                                                    "IsIndependent": false,
-                                                                                                                                                    "DomStateKey": "",
-                                                                                                                                                    "TechnologyType": 1,
-                                                                                                                                                    "Version": 200
-                                                                                                                                                  }
-                                                                                                                                                }
-                                                                                                                                              },
-                                                                                                                                              "StepType": 4,
-                                                                                                                                              "LogMessageOnFailure": "",
-                                                                                                                                              "EditorType": "",
-                                                                                                                                              "DataBindingExpressions": {}
-                                                                                                                                            }
-                                                                                                                                          },
-                                                                                                                                          "Enabled": true,
-                                                                                                                                          "Order": 3,
-                                                                                                                                          "Id": "",
-                                                                                                                                          "StepState": 0,
-                                                                                                                                          "ContinueOnFailure": false,
-                                                                                                                                          "StepImageKey": "WebTest1dxktcooi.tp0",
-                                                                                                                                          "QcId": 0,
-                                                                                                                                          "QcVersionStamp": 0,
-                                                                                                                                          "Version": 200
-                                                                                                                                        }
-                                                                                                                                      },
-                                                                                                                                      {
-                                                                                                                                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-                                                                                                                                        "__value": {
-                                                                                                                                          "Runtime ID": "566a68f8-0cb3-4e93-8c02-5396467061b8",
-                                                                                                                                          "Description": "Desktop command: LeftClick on x31Link",
-                                                                                                                                          "CustomDescription": null,
-                                                                                                                                          "Step": {
-                                                                                                                                            "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
-                                                                                                                                            "__value": {
-                                                                                                                                              "Focus": true,
-                                                                                                                                              "DesktopActionType": 0,
-                                                                                                                                              "OffSet": {
-                                                                                                                                                "__type": "ArtOfTest.Common.Design.ActionPoint",
-                                                                                                                                                "__value": "0, 0, Percentage, AbsoluteCenter"
-                                                                                                                                              },
+                                                                                                                                              "Encrypt": false,
+                                                                                                                                              "SupportUnicode": true,
+                                                                                                                                              "ScrollToVisibleType": 0,
                                                                                                                                               "UsejQuery": false,
                                                                                                                                               "ClosesBrowser": false,
                                                                                                                                               "AjaxTimeout": 0,
@@ -8567,33 +8929,33 @@
                                                                                                                                                 }
                                                                                                                                               },
                                                                                                                                               "Elements": {
-                                                                                                                                                "target": {
+                                                                                                                                                "textTarget": {
                                                                                                                                                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                                                                                                                                                   "__value": {
-                                                                                                                                                    "Name": "target",
+                                                                                                                                                    "Name": "textTarget",
                                                                                                                                                     "Region": null,
                                                                                                                                                     "Page": {
                                                                                                                                                       "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                                                                                                                                                       "__value": {
                                                                                                                                                         "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
-                                                                                                                                                        "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3482!REQUESTFORMSCREENFLOW&contentID=123eb198-b743-c652-0927-2509a1a0f386&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HID3663B904F7AA33D52B119FF8B28470DD",
+                                                                                                                                                        "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3641!REQUESTFORMSCREENFLOW&contentID=a0c890bc-e8c1-44a3-fa76-5e76fa93dd24&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDB0641D4A8EAF3DA571A84BAFA444C900",
                                                                                                                                                         "BaseUrl": "",
                                                                                                                                                         "EquivalentUrls": [],
                                                                                                                                                         "Fragment": "",
-                                                                                                                                                        "Title": "Vendor Contract VC-3482",
+                                                                                                                                                        "Title": "Vendor Contract VC-3641",
                                                                                                                                                         "CompareMode": 5,
                                                                                                                                                         "AlwaysUseTitleInCompare": false,
-                                                                                                                                                        "FriendlyName": "VendorContractVC34821"
+                                                                                                                                                        "FriendlyName": "VendorContractVC36413"
                                                                                                                                                       }
                                                                                                                                                     },
                                                                                                                                                     "Frame": null,
                                                                                                                                                     "FindExpression": {
                                                                                                                                                       "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                                                                                                                                       "__value": {
-                                                                                                                                                        "uniqueKey": "+MrssJYc27ghLVK+5KvX7y30ChM=",
+                                                                                                                                                        "uniqueKey": "fzAZITY+JGa3i7pZlak8U+79UKk=",
                                                                                                                                                         "NodeKind": 4,
                                                                                                                                                         "TechnologyType": 1,
-                                                                                                                                                        "Name": "x31Link",
+                                                                                                                                                        "Name": "ExpirationDateText",
                                                                                                                                                         "FindExpressions": [
                                                                                                                                                           {
                                                                                                                                                             "Key": 1,
@@ -8604,7 +8966,13 @@
                                                                                                                                                                   {
                                                                                                                                                                     "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                                                                                                                                     "__value": {
-                                                                                                                                                                      "Clause": "xpath=/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/tbody[1]/tr[5]/td[6]/a[1]"
+                                                                                                                                                                      "Clause": "id=ExpirationDate"
+                                                                                                                                                                    }
+                                                                                                                                                                  },
+                                                                                                                                                                  {
+                                                                                                                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                                                                                                                    "__value": {
+                                                                                                                                                                      "Clause": "tagname=input"
                                                                                                                                                                     }
                                                                                                                                                                   }
                                                                                                                                                                 ],
@@ -8614,11 +8982,11 @@
                                                                                                                                                             }
                                                                                                                                                           }
                                                                                                                                                         ],
-                                                                                                                                                        "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/tbody[1]/tr[5]/td[6]/a[1]",
+                                                                                                                                                        "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/input[1]",
                                                                                                                                                         "DataBindingExpressions": {}
                                                                                                                                                       }
                                                                                                                                                     },
-                                                                                                                                                    "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                                                                                                                                                    "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
                                                                                                                                                     "IsIndependent": false,
                                                                                                                                                     "DomStateKey": "",
                                                                                                                                                     "TechnologyType": 1,
@@ -8629,15 +8997,19 @@
                                                                                                                                               "StepType": 4,
                                                                                                                                               "LogMessageOnFailure": "",
                                                                                                                                               "EditorType": "",
-                                                                                                                                              "DataBindingExpressions": {}
+                                                                                                                                              "DataBindingExpressions": {
+                                                                                                                                                "Text": "$(Expiration date )"
+                                                                                                                                              },
+                                                                                                                                              "_canEncrypt": false,
+                                                                                                                                              "_cipher": null
                                                                                                                                             }
                                                                                                                                           },
                                                                                                                                           "Enabled": true,
-                                                                                                                                          "Order": 4,
+                                                                                                                                          "Order": 3,
                                                                                                                                           "Id": "",
                                                                                                                                           "StepState": 0,
                                                                                                                                           "ContinueOnFailure": false,
-                                                                                                                                          "StepImageKey": "WebTest1kbh151qn.zcn",
+                                                                                                                                          "StepImageKey": "Software-Online-Contentqtsh0wft.g5u",
                                                                                                                                           "QcId": 0,
                                                                                                                                           "QcVersionStamp": 0,
                                                                                                                                           "Version": 200
@@ -9517,7 +9889,7 @@
               }
             },
             "Enabled": true,
-            "Order": 48,
+            "Order": 52,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9530,7 +9902,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "986ca83b-370f-4d13-8203-af248690dc02",
+            "Runtime ID": "163f1fa5-0d42-4660-9cda-1ed114a82e05",
             "Description": "Verify element 'PyNoteTextArea' 'is' visible.",
             "CustomDescription": null,
             "Step": {
@@ -9867,7 +10239,7 @@
               }
             },
             "Enabled": true,
-            "Order": 49,
+            "Order": 53,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -9906,7 +10278,7 @@
               }
             },
             "Enabled": true,
-            "Order": 50,
+            "Order": 54,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10036,7 +10408,7 @@
               }
             },
             "Enabled": true,
-            "Order": 51,
+            "Order": 55,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10075,7 +10447,7 @@
               }
             },
             "Enabled": true,
-            "Order": 52,
+            "Order": 56,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -10088,7 +10460,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5addf713-974b-4763-a1e6-c897c1cf6f89",
+            "Runtime ID": "2780f529-020f-4960-9039-e3b0538b7772",
             "Description": "Extract 'TextContent' on 'PleaseDiv' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -15620,24 +15992,20 @@
                                                               {
                                                                 "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                                                                 "__value": {
-                                                                  "Runtime ID": "a31db70d-730e-499a-b18b-ba4f2809270a",
-                                                                  "Description": "Desktop command: LeftClick on PpyWorkPagePDataSharingSecurityPCompletionDateSpan",
+                                                                  "Runtime ID": "9232bba4-4e1f-4f51-b53f-f9729e6b6657",
+                                                                  "Description": "Verify element 'CompletionDateText' 'is' visible.",
                                                                   "CustomDescription": null,
                                                                   "Step": {
-                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
                                                                     "__value": {
-                                                                      "Focus": true,
-                                                                      "DesktopActionType": 0,
-                                                                      "OffSet": {
-                                                                        "__type": "ArtOfTest.Common.Design.ActionPoint",
-                                                                        "__value": "0, 0, Percentage, AbsoluteCenter"
-                                                                      },
-                                                                      "UsejQuery": false,
-                                                                      "ClosesBrowser": false,
-                                                                      "AjaxTimeout": 0,
+                                                                      "IsVisible": true,
+                                                                      "DataBindVariableName": null,
+                                                                      "Timeout": 30000,
+                                                                      "CheckInterval": 500,
+                                                                      "EnsureStateIsCurrent": false,
                                                                       "Pause": 0,
                                                                       "WaitOnElementsTimeout": 30000,
-                                                                      "UseStepWaitOnElementsTimout": true,
+                                                                      "UseStepWaitOnElementsTimout": false,
                                                                       "WaitOnElements": true,
                                                                       "RunsAgainstVersion": "",
                                                                       "Constraints": {
@@ -15647,33 +16015,33 @@
                                                                         }
                                                                       },
                                                                       "Elements": {
-                                                                        "target": {
+                                                                        "verifyTarget": {
                                                                           "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                                                                           "__value": {
-                                                                            "Name": "target",
+                                                                            "Name": "verifyTarget",
                                                                             "Region": null,
                                                                             "Page": {
                                                                               "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                                                                               "__value": {
                                                                                 "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
-                                                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3531!DATASHARINGSECURITY&contentID=b031d31f-358c-3a36-7d21-23d4b7d45d24&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HID83B4562F5ED7787C3C61F5337EC302D2",
+                                                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3653!DATASHARINGSECURITY&contentID=40e16836-4b6c-3c88-ba89-de7d96953d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HID736BF590C26DFF9D302BC115FBCEE705",
                                                                                 "BaseUrl": "",
                                                                                 "EquivalentUrls": [],
                                                                                 "Fragment": "",
-                                                                                "Title": "Vendor Contract VC-3531",
+                                                                                "Title": "Vendor Contract VC-3653",
                                                                                 "CompareMode": 5,
                                                                                 "AlwaysUseTitleInCompare": false,
-                                                                                "FriendlyName": "VendorContractVC35312"
+                                                                                "FriendlyName": "VendorContractVC36532"
                                                                               }
                                                                             },
                                                                             "Frame": null,
                                                                             "FindExpression": {
-                                                                              "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                                                               "__value": {
-                                                                                "uniqueKey": "hByzm8dsBDGGWs9auHi272bo0a4=",
+                                                                                "uniqueKey": "Wpy+zf6Jdb8QusYhBa/dzuhmv5U=",
                                                                                 "NodeKind": 4,
                                                                                 "TechnologyType": 1,
-                                                                                "Name": "PpyWorkPagePDataSharingSecurityPCompletionDateSpan",
+                                                                                "Name": "CompletionDateText",
                                                                                 "FindExpressions": [
                                                                                   {
                                                                                     "Key": 1,
@@ -15684,13 +16052,13 @@
                                                                                           {
                                                                                             "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                                                             "__value": {
-                                                                                              "Clause": "TagName=span"
+                                                                                              "Clause": "id=CompletionDate"
                                                                                             }
                                                                                           },
                                                                                           {
                                                                                             "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                                                             "__value": {
-                                                                                              "Clause": "name=$PpyWorkPage$pDataSharingSecurity$pCompletionDate"
+                                                                                              "Clause": "tagname=input"
                                                                                             }
                                                                                           }
                                                                                         ],
@@ -15700,11 +16068,11 @@
                                                                                     }
                                                                                   }
                                                                                 ],
-                                                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/span[1]/span[1]",
+                                                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/span[1]/input[1]",
                                                                                 "DataBindingExpressions": {}
                                                                               }
                                                                             },
-                                                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
                                                                             "IsIndependent": false,
                                                                             "DomStateKey": "",
                                                                             "TechnologyType": 1,
@@ -15712,7 +16080,7 @@
                                                                           }
                                                                         }
                                                                       },
-                                                                      "StepType": 4,
+                                                                      "StepType": 2,
                                                                       "LogMessageOnFailure": "",
                                                                       "EditorType": "",
                                                                       "DataBindingExpressions": {}
@@ -15723,7 +16091,7 @@
                                                                   "Id": "",
                                                                   "StepState": 0,
                                                                   "ContinueOnFailure": false,
-                                                                  "StepImageKey": "WebTest0hn0kmny.pka",
+                                                                  "StepImageKey": "Software-Online-Contentn1lcwdmj.0zr",
                                                                   "QcId": 0,
                                                                   "QcVersionStamp": 0,
                                                                   "Version": 200
@@ -15732,18 +16100,27 @@
                                                               {
                                                                 "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                                                                 "__value": {
-                                                                  "Runtime ID": "4908d5fa-f0be-408c-8741-ec2b395ad02f",
-                                                                  "Description": "Desktop command: LeftClick on x31Link",
+                                                                  "Runtime ID": "554cd137-eafe-483b-a532-898d4056a6bf",
+                                                                  "Description": "Enter text '' in 'CompletionDateText' - DataDriven: [$(Completion date)]",
                                                                   "CustomDescription": null,
                                                                   "Step": {
-                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
                                                                     "__value": {
-                                                                      "Focus": true,
-                                                                      "DesktopActionType": 0,
-                                                                      "OffSet": {
-                                                                        "__type": "ArtOfTest.Common.Design.ActionPoint",
-                                                                        "__value": "0, 0, Percentage, AbsoluteCenter"
+                                                                      "RawText": "",
+                                                                      "SimulateRealTyping": false,
+                                                                      "TypingSpeed": 50,
+                                                                      "KeyHoldTime": 100,
+                                                                      "IsPassword": false,
+                                                                      "TypingInfo": {
+                                                                        "ElementText": "5",
+                                                                        "TypedText": "5",
+                                                                        "CaretPosition": 1,
+                                                                        "IsTextArea": false,
+                                                                        "IsBackSpace": false
                                                                       },
+                                                                      "Encrypt": false,
+                                                                      "SupportUnicode": true,
+                                                                      "ScrollToVisibleType": 0,
                                                                       "UsejQuery": false,
                                                                       "ClosesBrowser": false,
                                                                       "AjaxTimeout": 0,
@@ -15759,33 +16136,33 @@
                                                                         }
                                                                       },
                                                                       "Elements": {
-                                                                        "target": {
+                                                                        "textTarget": {
                                                                           "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                                                                           "__value": {
-                                                                            "Name": "target",
+                                                                            "Name": "textTarget",
                                                                             "Region": null,
                                                                             "Page": {
                                                                               "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                                                                               "__value": {
                                                                                 "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
-                                                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3531!DATASHARINGSECURITY&contentID=b031d31f-358c-3a36-7d21-23d4b7d45d24&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HID83B4562F5ED7787C3C61F5337EC302D2",
+                                                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3653!DATASHARINGSECURITY&contentID=40e16836-4b6c-3c88-ba89-de7d96953d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HID736BF590C26DFF9D302BC115FBCEE705",
                                                                                 "BaseUrl": "",
                                                                                 "EquivalentUrls": [],
                                                                                 "Fragment": "",
-                                                                                "Title": "Vendor Contract VC-3531",
+                                                                                "Title": "Vendor Contract VC-3653",
                                                                                 "CompareMode": 5,
                                                                                 "AlwaysUseTitleInCompare": false,
-                                                                                "FriendlyName": "VendorContractVC35312"
+                                                                                "FriendlyName": "VendorContractVC36532"
                                                                               }
                                                                             },
                                                                             "Frame": null,
                                                                             "FindExpression": {
                                                                               "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                                                               "__value": {
-                                                                                "uniqueKey": "+MrssJYc27ghLVK+5KvX7y30ChM=",
+                                                                                "uniqueKey": "Wpy+zf6Jdb8QusYhBa/dzuhmv5U=",
                                                                                 "NodeKind": 4,
                                                                                 "TechnologyType": 1,
-                                                                                "Name": "x31Link",
+                                                                                "Name": "CompletionDateText",
                                                                                 "FindExpressions": [
                                                                                   {
                                                                                     "Key": 1,
@@ -15796,7 +16173,13 @@
                                                                                           {
                                                                                             "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                                                             "__value": {
-                                                                                              "Clause": "xpath=/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/tbody[1]/tr[5]/td[6]/a[1]"
+                                                                                              "Clause": "id=CompletionDate"
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                                            "__value": {
+                                                                                              "Clause": "tagname=input"
                                                                                             }
                                                                                           }
                                                                                         ],
@@ -15806,11 +16189,11 @@
                                                                                     }
                                                                                   }
                                                                                 ],
-                                                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[5]/div[1]/ul[1]/li[1]/div[2]/table[1]/tbody[1]/tr[5]/td[6]/a[1]",
+                                                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/span[1]/input[1]",
                                                                                 "DataBindingExpressions": {}
                                                                               }
                                                                             },
-                                                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                                                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
                                                                             "IsIndependent": false,
                                                                             "DomStateKey": "",
                                                                             "TechnologyType": 1,
@@ -15821,7 +16204,11 @@
                                                                       "StepType": 4,
                                                                       "LogMessageOnFailure": "",
                                                                       "EditorType": "",
-                                                                      "DataBindingExpressions": {}
+                                                                      "DataBindingExpressions": {
+                                                                        "Text": "$(Completion date)"
+                                                                      },
+                                                                      "_canEncrypt": false,
+                                                                      "_cipher": null
                                                                     }
                                                                   },
                                                                   "Enabled": true,
@@ -15829,7 +16216,7 @@
                                                                   "Id": "",
                                                                   "StepState": 0,
                                                                   "ContinueOnFailure": false,
-                                                                  "StepImageKey": "WebTest14yeiwon.2uv",
+                                                                  "StepImageKey": "Software-Online-Contentylvl0zyc.uxz",
                                                                   "QcId": 0,
                                                                   "QcVersionStamp": 0,
                                                                   "Version": 200
@@ -17886,7 +18273,7 @@
               }
             },
             "Enabled": true,
-            "Order": 53,
+            "Order": 57,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -17925,7 +18312,7 @@
               }
             },
             "Enabled": true,
-            "Order": 54,
+            "Order": 58,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -18055,7 +18442,7 @@
               }
             },
             "Enabled": true,
-            "Order": 55,
+            "Order": 59,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -18094,7 +18481,7 @@
               }
             },
             "Enabled": true,
-            "Order": 56,
+            "Order": 60,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -18107,7 +18494,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a3d2c0e9-ee36-4ce3-8d90-0d6f1b70c5b6",
+            "Runtime ID": "aa6b97a3-56f5-4fa4-a4c5-c6161a58ed5f",
             "Description": "Extract 'TextContent' on 'DoesTheDiv' into DataBindVariable $(DoesTheDiv)",
             "CustomDescription": null,
             "Step": {
@@ -19089,7 +19476,7 @@
               }
             },
             "Enabled": true,
-            "Order": 57,
+            "Order": 61,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -19102,7 +19489,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3ceb4bf7-cd79-476f-a5e7-0dc6b1ec641f",
+            "Runtime ID": "ff1630d5-32c3-4073-a5cf-a9b58c066289",
             "Description": "Extract 'TextContent' on 'HowWouldLabelTag' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -19578,7 +19965,7 @@
               }
             },
             "Enabled": true,
-            "Order": 58,
+            "Order": 62,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -19591,7 +19978,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f945bb45-c441-469c-a14d-b69955e8602c",
+            "Runtime ID": "1a483211-3211-4b40-954f-6abff6af268a",
             "Description": "Extract 'TextContent' on 'WhereWouldDiv' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -21590,7 +21977,7 @@
               }
             },
             "Enabled": true,
-            "Order": 59,
+            "Order": 63,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -21603,7 +21990,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f5848d7d-3947-4ad5-9302-98d318b6b2c0",
+            "Runtime ID": "91d2f178-e9d8-4f70-b22c-248f549a09d7",
             "Description": "Verify element 'PyNoteTextArea0' 'is' visible.",
             "CustomDescription": null,
             "Step": {
@@ -21826,7 +22213,7 @@
               }
             },
             "Enabled": true,
-            "Order": 60,
+            "Order": 64,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -21865,7 +22252,7 @@
               }
             },
             "Enabled": true,
-            "Order": 61,
+            "Order": 65,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -21878,7 +22265,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "05de1534-c87f-4d1e-92a2-2ffe7a4de2b5",
+            "Runtime ID": "50b87fd7-ebae-47a1-8239-f804907d49f2",
             "Description": "IF (Extract 'TextContent' on 'IsTheDiv' into DataBindVariable $())",
             "CustomDescription": null,
             "Step": {
@@ -24884,7 +25271,7 @@
               }
             },
             "Enabled": true,
-            "Order": 62,
+            "Order": 66,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -24897,7 +25284,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4aaa738a-7b89-4283-9d91-289f9b7e4517",
+            "Runtime ID": "0aba1154-d659-4cd7-935b-3ad899710cb9",
             "Description": "Extract 'TextContent' on 'HasTheDiv' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -27939,7 +28326,7 @@
               }
             },
             "Enabled": true,
-            "Order": 63,
+            "Order": 67,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -27952,7 +28339,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "cbfe7894-b145-4879-a1e0-c4fd260bdddb",
+            "Runtime ID": "ed8dece7-98b5-41d5-b248-2e50b8e1974f",
             "Description": "Extract 'TextContent' on 'WouldAnyDiv' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -30152,7 +30539,7 @@
               }
             },
             "Enabled": true,
-            "Order": 64,
+            "Order": 68,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -30258,7 +30645,7 @@
               }
             },
             "Enabled": true,
-            "Order": 65,
+            "Order": 69,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -30297,7 +30684,7 @@
               }
             },
             "Enabled": true,
-            "Order": 66,
+            "Order": 70,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -30410,7 +30797,7 @@
               }
             },
             "Enabled": true,
-            "Order": 67,
+            "Order": 71,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -30535,7 +30922,7 @@
               }
             },
             "Enabled": true,
-            "Order": 68,
+            "Order": 72,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -30574,7 +30961,7 @@
               }
             },
             "Enabled": true,
-            "Order": 69,
+            "Order": 73,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -30587,7 +30974,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "7e463c87-029a-4348-928b-737b431e29ff",
+            "Runtime ID": "d43da3e9-f8c0-443d-8dd1-d74f486c9ee1",
             "Description": "Extract 'TextContent' on 'Headerlabel1802H2Tag0' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -32239,7 +32626,7 @@
               }
             },
             "Enabled": true,
-            "Order": 70,
+            "Order": 74,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -32347,7 +32734,7 @@
               }
             },
             "Enabled": true,
-            "Order": 71,
+            "Order": 75,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -32455,7 +32842,7 @@
               }
             },
             "Enabled": true,
-            "Order": 72,
+            "Order": 76,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -32561,7 +32948,7 @@
               }
             },
             "Enabled": true,
-            "Order": 73,
+            "Order": 77,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -32665,7 +33052,7 @@
               }
             },
             "Enabled": true,
-            "Order": 74,
+            "Order": 78,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -32771,7 +33158,7 @@
               }
             },
             "Enabled": true,
-            "Order": 75,
+            "Order": 79,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -32810,7 +33197,7 @@
               }
             },
             "Enabled": true,
-            "Order": 76,
+            "Order": 80,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -32854,7 +33241,7 @@
               }
             },
             "Enabled": true,
-            "Order": 77,
+            "Order": 81,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -32979,7 +33366,7 @@
               }
             },
             "Enabled": true,
-            "Order": 78,
+            "Order": 82,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33104,7 +33491,7 @@
               }
             },
             "Enabled": true,
-            "Order": 79,
+            "Order": 83,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33212,7 +33599,7 @@
               }
             },
             "Enabled": true,
-            "Order": 80,
+            "Order": 84,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33318,7 +33705,7 @@
               }
             },
             "Enabled": true,
-            "Order": 81,
+            "Order": 85,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33357,7 +33744,7 @@
               }
             },
             "Enabled": true,
-            "Order": 82,
+            "Order": 86,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33475,7 +33862,7 @@
               }
             },
             "Enabled": true,
-            "Order": 83,
+            "Order": 87,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33514,7 +33901,7 @@
               }
             },
             "Enabled": true,
-            "Order": 84,
+            "Order": 88,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33632,7 +34019,7 @@
               }
             },
             "Enabled": true,
-            "Order": 85,
+            "Order": 89,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33671,7 +34058,7 @@
               }
             },
             "Enabled": true,
-            "Order": 86,
+            "Order": 90,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33802,7 +34189,7 @@
               }
             },
             "Enabled": true,
-            "Order": 87,
+            "Order": 91,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33841,7 +34228,7 @@
               }
             },
             "Enabled": true,
-            "Order": 88,
+            "Order": 92,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -33961,7 +34348,7 @@
               }
             },
             "Enabled": true,
-            "Order": 89,
+            "Order": 93,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -34000,7 +34387,7 @@
               }
             },
             "Enabled": true,
-            "Order": 90,
+            "Order": 94,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -34108,7 +34495,7 @@
               }
             },
             "Enabled": true,
-            "Order": 91,
+            "Order": 95,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -34147,7 +34534,7 @@
               }
             },
             "Enabled": true,
-            "Order": 92,
+            "Order": 96,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -34160,7 +34547,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a527110f-259d-41f7-9ce2-d2deed815005",
+            "Runtime ID": "72da89f5-e62f-42e8-8427-f69e3f928767",
             "Description": "IF (Extract 'TextContent' on 'Headerlabel8052H2Tag' into DataBindVariable $())",
             "CustomDescription": null,
             "Step": {
@@ -35519,7 +35906,7 @@
               }
             },
             "Enabled": true,
-            "Order": 93,
+            "Order": 97,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -35558,7 +35945,7 @@
               }
             },
             "Enabled": true,
-            "Order": 94,
+            "Order": 98,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -35571,7 +35958,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "14a59784-1cd3-4aa8-adf4-db37bdc7ed3a",
+            "Runtime ID": "0a6387d6-7a55-46c2-bb8b-c8798e99358c",
             "Description": "IF (Extract 'TextContent' on 'PleaseSpan' into DataBindVariable $())",
             "CustomDescription": null,
             "Step": {
@@ -36149,7 +36536,7 @@
               }
             },
             "Enabled": true,
-            "Order": 95,
+            "Order": 99,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -36188,7 +36575,7 @@
               }
             },
             "Enabled": true,
-            "Order": 96,
+            "Order": 100,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -36201,7 +36588,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "9300e3b7-1c0c-44db-a0f8-136c06021bcc",
+            "Runtime ID": "911a53d3-fefb-4217-9ba7-626d7c660078",
             "Description": "IF (Extract 'alt' attribute on 'PyCaseActionAreaButtonsPyWorkPage12ButtonTag' into DataBindVariable $())",
             "CustomDescription": null,
             "Step": {
@@ -36620,7 +37007,7 @@
               }
             },
             "Enabled": true,
-            "Order": 97,
+            "Order": 101,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -36633,7 +37020,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d59fadcf-0407-49c9-9749-fa41f8bc77f0",
+            "Runtime ID": "1121c5f9-15dc-4d73-ac1d-08a036688ea0",
             "Description": "IF (Extract 'TextContent' on 'PyCaseActionAreaButtonsPyWorkPage13ButtonTag' into DataBindVariable $())",
             "CustomDescription": null,
             "Step": {
@@ -37015,7 +37402,7 @@
               }
             },
             "Enabled": true,
-            "Order": 98,
+            "Order": 102,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -37028,7 +37415,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "28a621a8-e15f-4385-9d70-519d60eecc6e",
+            "Runtime ID": "e0322b00-d833-4c00-858e-f1af2c62af11",
             "Description": "Extract 'TextContent' on 'PyCaseActionAreaButtonsPyWorkPage16ButtonTag' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -37410,7 +37797,7 @@
               }
             },
             "Enabled": true,
-            "Order": 99,
+            "Order": 103,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -37423,7 +37810,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "97ad7c81-dd9a-4ea3-bd59-15cb26ee560c",
+            "Runtime ID": "55585f6e-6ed9-48c5-a0f5-d1d37193c351",
             "Description": "Extract 'TextContent' on 'PyCaseActionAreaButtonsPyWorkPage17ButtonTag' into DataBindVariable $()",
             "CustomDescription": null,
             "Step": {
@@ -37805,7 +38192,7 @@
               }
             },
             "Enabled": true,
-            "Order": 100,
+            "Order": 104,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -37818,7 +38205,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "209d2d2d-12b1-4d15-8a77-2d2a1e80c675",
+            "Runtime ID": "641c6458-6a3a-4d94-9e03-bcf61e0ccfc0",
             "Description": "IF (Extract 'alt' attribute on 'PyCaseActionAreaButtonsPyWorkPage20ButtonTag0' into DataBindVariable $())",
             "CustomDescription": null,
             "Step": {
@@ -37869,7 +38256,7 @@
                           "FindExpression": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                             "__value": {
-                              "uniqueKey": "11qL3eHSuHUUGrAEcl5yuqYcu/E=",
+                              "uniqueKey": "J4gRl6IwpGs9IiohmD509fQqfGI=",
                               "NodeKind": 4,
                               "TechnologyType": 1,
                               "Name": "PyCaseActionAreaButtonsPyWorkPage20ButtonTag0",
@@ -37889,12 +38276,6 @@
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "type=button"
-                                          }
-                                        },
-                                        {
-                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                          "__value": {
                                             "Clause": "name=pyCaseActionAreaButtons_pyWorkPage_20"
                                           }
                                         },
@@ -37908,18 +38289,6 @@
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
                                             "Clause": "alt=Complete this assignment"
-                                          }
-                                        },
-                                        {
-                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                          "__value": {
-                                            "Clause": "TextContent=Submit"
-                                          }
-                                        },
-                                        {
-                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                          "__value": {
-                                            "Clause": "InnerText=Submit"
                                           }
                                         }
                                       ],
@@ -38010,7 +38379,7 @@
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "11qL3eHSuHUUGrAEcl5yuqYcu/E=",
+                                            "uniqueKey": "J4gRl6IwpGs9IiohmD509fQqfGI=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
                                             "Name": "PyCaseActionAreaButtonsPyWorkPage20ButtonTag0",
@@ -38030,12 +38399,6 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "type=button"
-                                                        }
-                                                      },
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
                                                           "Clause": "name=pyCaseActionAreaButtons_pyWorkPage_20"
                                                         }
                                                       },
@@ -38049,18 +38412,6 @@
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
                                                           "Clause": "alt=Complete this assignment"
-                                                        }
-                                                      },
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
-                                                          "Clause": "TextContent=Submit"
-                                                        }
-                                                      },
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
-                                                          "Clause": "InnerText=Submit"
                                                         }
                                                       }
                                                     ],
@@ -38158,7 +38509,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "11qL3eHSuHUUGrAEcl5yuqYcu/E=",
+                          "uniqueKey": "J4gRl6IwpGs9IiohmD509fQqfGI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "PyCaseActionAreaButtonsPyWorkPage20ButtonTag0",
@@ -38178,12 +38529,6 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "type=button"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
                                         "Clause": "name=pyCaseActionAreaButtons_pyWorkPage_20"
                                       }
                                     },
@@ -38197,18 +38542,6 @@
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
                                         "Clause": "alt=Complete this assignment"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Submit"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "InnerText=Submit"
                                       }
                                     }
                                   ],
@@ -38237,7 +38570,7 @@
               }
             },
             "Enabled": true,
-            "Order": 101,
+            "Order": 105,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -38276,7 +38609,7 @@
               }
             },
             "Enabled": true,
-            "Order": 102,
+            "Order": 106,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -38394,7 +38727,7 @@
               }
             },
             "Enabled": true,
-            "Order": 103,
+            "Order": 107,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -38433,7 +38766,7 @@
               }
             },
             "Enabled": true,
-            "Order": 104,
+            "Order": 108,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -38553,7 +38886,7 @@
               }
             },
             "Enabled": true,
-            "Order": 105,
+            "Order": 109,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -38592,7 +38925,7 @@
               }
             },
             "Enabled": true,
-            "Order": 106,
+            "Order": 110,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -38716,7 +39049,7 @@
               }
             },
             "Enabled": true,
-            "Order": 107,
+            "Order": 111,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -38755,7 +39088,7 @@
               }
             },
             "Enabled": true,
-            "Order": 108,
+            "Order": 112,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,

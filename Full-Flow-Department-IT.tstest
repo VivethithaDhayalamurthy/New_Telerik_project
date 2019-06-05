@@ -39127,7 +39127,7 @@
                           "FindExpression": {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                             "__value": {
-                              "uniqueKey": "11qL3eHSuHUUGrAEcl5yuqYcu/E=",
+                              "uniqueKey": "J4gRl6IwpGs9IiohmD509fQqfGI=",
                               "NodeKind": 4,
                               "TechnologyType": 1,
                               "Name": "PyCaseActionAreaButtonsPyWorkPage20ButtonTag0",
@@ -39147,12 +39147,6 @@
                                         {
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
-                                            "Clause": "type=button"
-                                          }
-                                        },
-                                        {
-                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                          "__value": {
                                             "Clause": "name=pyCaseActionAreaButtons_pyWorkPage_20"
                                           }
                                         },
@@ -39166,18 +39160,6 @@
                                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                           "__value": {
                                             "Clause": "alt=Complete this assignment"
-                                          }
-                                        },
-                                        {
-                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                          "__value": {
-                                            "Clause": "TextContent=Submit"
-                                          }
-                                        },
-                                        {
-                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                          "__value": {
-                                            "Clause": "InnerText=Submit"
                                           }
                                         }
                                       ],
@@ -39268,7 +39250,7 @@
                                         "FindExpression": {
                                           "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                                           "__value": {
-                                            "uniqueKey": "11qL3eHSuHUUGrAEcl5yuqYcu/E=",
+                                            "uniqueKey": "J4gRl6IwpGs9IiohmD509fQqfGI=",
                                             "NodeKind": 4,
                                             "TechnologyType": 1,
                                             "Name": "PyCaseActionAreaButtonsPyWorkPage20ButtonTag0",
@@ -39288,12 +39270,6 @@
                                                       {
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
-                                                          "Clause": "type=button"
-                                                        }
-                                                      },
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
                                                           "Clause": "name=pyCaseActionAreaButtons_pyWorkPage_20"
                                                         }
                                                       },
@@ -39307,18 +39283,6 @@
                                                         "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                                         "__value": {
                                                           "Clause": "alt=Complete this assignment"
-                                                        }
-                                                      },
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
-                                                          "Clause": "TextContent=Submit"
-                                                        }
-                                                      },
-                                                      {
-                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                                        "__value": {
-                                                          "Clause": "InnerText=Submit"
                                                         }
                                                       }
                                                     ],
@@ -39416,7 +39380,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "11qL3eHSuHUUGrAEcl5yuqYcu/E=",
+                          "uniqueKey": "J4gRl6IwpGs9IiohmD509fQqfGI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "PyCaseActionAreaButtonsPyWorkPage20ButtonTag0",
@@ -39436,12 +39400,6 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "type=button"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
                                         "Clause": "name=pyCaseActionAreaButtons_pyWorkPage_20"
                                       }
                                     },
@@ -39455,18 +39413,6 @@
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
                                         "Clause": "alt=Complete this assignment"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Submit"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "InnerText=Submit"
                                       }
                                     }
                                   ],

@@ -1,0 +1,2084 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "871478b2-4105-4cef-ac3f-c98fc838cfd0",
+            "Description": "Extract 'TextContent' on 'WhereWouldDiv' into DataBindVariable $()",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+              "__value": {
+                "Verification": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                  "__value": {
+                    "CompareType": 2,
+                    "SegmentType": 3,
+                    "ExpectedString": "Where would PDS's data be stored?",
+                    "DataBindVariableName": "",
+                    "Timeout": 30000,
+                    "CheckInterval": 500,
+                    "EnsureStateIsCurrent": false,
+                    "Pause": 0,
+                    "WaitOnElementsTimeout": 30000,
+                    "UseStepWaitOnElementsTimout": true,
+                    "WaitOnElements": true,
+                    "RunsAgainstVersion": "",
+                    "Constraints": {
+                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                      "__value": {
+                        "ConstraintValues": {}
+                      }
+                    },
+                    "Elements": {
+                      "textTarget": {
+                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                        "__value": {
+                          "Name": "textTarget",
+                          "Region": null,
+                          "Page": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                            "__value": {
+                              "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                              "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                              "BaseUrl": "",
+                              "EquivalentUrls": [],
+                              "Fragment": "",
+                              "Title": "Vendor Contract VC-3541",
+                              "CompareMode": 5,
+                              "AlwaysUseTitleInCompare": false,
+                              "FriendlyName": "VendorContractVC3541"
+                            }
+                          },
+                          "Frame": null,
+                          "FindExpression": {
+                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                            "__value": {
+                              "uniqueKey": "aRLHYmcGkOHNGb+YE82KG5HuECc=",
+                              "NodeKind": 4,
+                              "TechnologyType": 1,
+                              "Name": "WhereWouldDiv",
+                              "FindExpressions": [
+                                {
+                                  "Key": 1,
+                                  "Value": {
+                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                    "__value": {
+                                      "Clauses": [
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "TagName=div"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "TextContent=Where would PDS's data be stored?"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "InnerText=Where would PDS's data be stored?"
+                                          }
+                                        }
+                                      ],
+                                      "Constraints": [],
+                                      "ChainStops": []
+                                    }
+                                  }
+                                }
+                              ],
+                              "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+                              "DataBindingExpressions": {}
+                            }
+                          },
+                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                          "IsIndependent": false,
+                          "DomStateKey": "",
+                          "TechnologyType": 1,
+                          "Version": 200
+                        }
+                      }
+                    },
+                    "StepType": 16,
+                    "LogMessageOnFailure": "",
+                    "EditorType": "",
+                    "DataBindingExpressions": {
+                      "ExpectedString": "$(data_sharing_and_security_question3)"
+                    }
+                  }
+                },
+                "Branches": {
+                  "1": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "949622df-3862-482b-a011-557750686ccc",
+                              "Description": "Extract 'TextContent' on 'NotApplicableDiv' into DataBindVariable $()",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                "__value": {
+                                  "Verification": {
+                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                    "__value": {
+                                      "CompareType": 2,
+                                      "SegmentType": 3,
+                                      "ExpectedString": "Not Applicable",
+                                      "DataBindVariableName": "",
+                                      "Timeout": 30000,
+                                      "CheckInterval": 500,
+                                      "EnsureStateIsCurrent": false,
+                                      "Pause": 0,
+                                      "WaitOnElementsTimeout": 30000,
+                                      "UseStepWaitOnElementsTimout": true,
+                                      "WaitOnElements": true,
+                                      "RunsAgainstVersion": "",
+                                      "Constraints": {
+                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                        "__value": {
+                                          "ConstraintValues": {}
+                                        }
+                                      },
+                                      "Elements": {
+                                        "textTarget": {
+                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                          "__value": {
+                                            "Name": "textTarget",
+                                            "Region": null,
+                                            "Page": {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                              "__value": {
+                                                "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                "BaseUrl": "",
+                                                "EquivalentUrls": [],
+                                                "Fragment": "",
+                                                "Title": "Vendor Contract VC-3541",
+                                                "CompareMode": 5,
+                                                "AlwaysUseTitleInCompare": false,
+                                                "FriendlyName": "VendorContractVC3541"
+                                              }
+                                            },
+                                            "Frame": null,
+                                            "FindExpression": {
+                                              "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                              "__value": {
+                                                "uniqueKey": "7T6GIQYYGVwco/mrGoh0gYgLQYI=",
+                                                "NodeKind": 4,
+                                                "TechnologyType": 1,
+                                                "Name": "NotApplicableDiv",
+                                                "FindExpressions": [
+                                                  {
+                                                    "Key": 1,
+                                                    "Value": {
+                                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                      "__value": {
+                                                        "Clauses": [
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TagName=div"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TextContent=Not Applicable"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "InnerText=Not Applicable"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "Constraints": [],
+                                                        "ChainStops": []
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]",
+                                                "DataBindingExpressions": {}
+                                              }
+                                            },
+                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                            "IsIndependent": false,
+                                            "DomStateKey": "",
+                                            "TechnologyType": 1,
+                                            "Version": 200
+                                          }
+                                        }
+                                      },
+                                      "StepType": 16,
+                                      "LogMessageOnFailure": "",
+                                      "EditorType": "",
+                                      "DataBindingExpressions": {
+                                        "ExpectedString": "$(Where would PDS data be stored)"
+                                      }
+                                    }
+                                  },
+                                  "Branches": {
+                                    "1": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": [
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "b96790eb-c9a8-4121-848a-6ca2b7c465f1",
+                                                "Description": "Desktop command: LeftClick on NotApplicableCheckBox",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                  "__value": {
+                                                    "Focus": true,
+                                                    "DesktopActionType": 0,
+                                                    "OffSet": {
+                                                      "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                                      "__value": "0, 0, Percentage, AbsoluteCenter"
+                                                    },
+                                                    "UsejQuery": false,
+                                                    "ClosesBrowser": false,
+                                                    "AjaxTimeout": 0,
+                                                    "Pause": 0,
+                                                    "WaitOnElementsTimeout": 30000,
+                                                    "UseStepWaitOnElementsTimout": true,
+                                                    "WaitOnElements": true,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "target": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "target",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                              "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Vendor Contract VC-3541",
+                                                              "CompareMode": 5,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "VendorContractVC3541"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "USb2NIHljxQeCzQm1Qy/tFVa3pc=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "NotApplicableCheckBox",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "id=NotApplicable"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "tagname=input"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/input[2]",
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 1,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "datapage214uesali.ouw",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "Description": "IF ({0})",
+                                        "CustomDescription": null,
+                                        "Order": 0,
+                                        "Branch": 1,
+                                        "Visible": true
+                                      }
+                                    },
+                                    "0": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": []
+                                        },
+                                        "Description": "ELSE",
+                                        "CustomDescription": null,
+                                        "Order": 1,
+                                        "Branch": 0,
+                                        "Visible": true
+                                      }
+                                    }
+                                  },
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElementsTimeout": 0,
+                                  "WaitOnElements": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                            "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Vendor Contract VC-3541",
+                                            "CompareMode": 5,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "VendorContractVC3541"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "7T6GIQYYGVwco/mrGoh0gYgLQYI=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "NotApplicableDiv",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagName=div"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TextContent=Not Applicable"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "InnerText=Not Applicable"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[2]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 8,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datapage2qanpxesk.l3j",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "90dae5a8-e0fe-4d26-9f77-abca71193805",
+                              "Description": "Extract 'TextContent' on 'CloudServiceDiv' into DataBindVariable $()",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                "__value": {
+                                  "Verification": {
+                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                    "__value": {
+                                      "CompareType": 2,
+                                      "SegmentType": 3,
+                                      "ExpectedString": "Cloud Service",
+                                      "DataBindVariableName": "",
+                                      "Timeout": 30000,
+                                      "CheckInterval": 500,
+                                      "EnsureStateIsCurrent": false,
+                                      "Pause": 0,
+                                      "WaitOnElementsTimeout": 30000,
+                                      "UseStepWaitOnElementsTimout": true,
+                                      "WaitOnElements": true,
+                                      "RunsAgainstVersion": "",
+                                      "Constraints": {
+                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                        "__value": {
+                                          "ConstraintValues": {}
+                                        }
+                                      },
+                                      "Elements": {
+                                        "textTarget": {
+                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                          "__value": {
+                                            "Name": "textTarget",
+                                            "Region": null,
+                                            "Page": {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                              "__value": {
+                                                "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                "BaseUrl": "",
+                                                "EquivalentUrls": [],
+                                                "Fragment": "",
+                                                "Title": "Vendor Contract VC-3541",
+                                                "CompareMode": 5,
+                                                "AlwaysUseTitleInCompare": false,
+                                                "FriendlyName": "VendorContractVC3541"
+                                              }
+                                            },
+                                            "Frame": null,
+                                            "FindExpression": {
+                                              "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                              "__value": {
+                                                "uniqueKey": "ZoqzfzZMQifQ437a/bAQhfkYWqQ=",
+                                                "NodeKind": 4,
+                                                "TechnologyType": 1,
+                                                "Name": "CloudServiceDiv",
+                                                "FindExpressions": [
+                                                  {
+                                                    "Key": 1,
+                                                    "Value": {
+                                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                      "__value": {
+                                                        "Clauses": [
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TagName=div"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TextContent=Cloud Service"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "InnerText=Cloud Service"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "Constraints": [],
+                                                        "ChainStops": []
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]",
+                                                "DataBindingExpressions": {}
+                                              }
+                                            },
+                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                            "IsIndependent": false,
+                                            "DomStateKey": "",
+                                            "TechnologyType": 1,
+                                            "Version": 200
+                                          }
+                                        }
+                                      },
+                                      "StepType": 16,
+                                      "LogMessageOnFailure": "",
+                                      "EditorType": "",
+                                      "DataBindingExpressions": {
+                                        "ExpectedString": "$(Where would PDS data be stored)"
+                                      }
+                                    }
+                                  },
+                                  "Branches": {
+                                    "1": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": [
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "bd74409a-4e81-427c-833f-1a43722cf341",
+                                                "Description": "Desktop command: LeftClick on CloudServiceCheckBox",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                  "__value": {
+                                                    "Focus": true,
+                                                    "DesktopActionType": 0,
+                                                    "OffSet": {
+                                                      "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                                      "__value": "0, 0, Percentage, AbsoluteCenter"
+                                                    },
+                                                    "UsejQuery": false,
+                                                    "ClosesBrowser": false,
+                                                    "AjaxTimeout": 0,
+                                                    "Pause": 0,
+                                                    "WaitOnElementsTimeout": 30000,
+                                                    "UseStepWaitOnElementsTimout": true,
+                                                    "WaitOnElements": true,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "target": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "target",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                              "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Vendor Contract VC-3541",
+                                                              "CompareMode": 5,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "VendorContractVC3541"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "9xB15kJRlpfeUWT36DvF/jbvBWw=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "CloudServiceCheckBox",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "id=CloudService"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "tagname=input"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/input[2]",
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 1,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "datapage25d3kp2kx.tlh",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "Description": "IF ({0})",
+                                        "CustomDescription": null,
+                                        "Order": 0,
+                                        "Branch": 1,
+                                        "Visible": true
+                                      }
+                                    },
+                                    "0": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": []
+                                        },
+                                        "Description": "ELSE",
+                                        "CustomDescription": null,
+                                        "Order": 1,
+                                        "Branch": 0,
+                                        "Visible": true
+                                      }
+                                    }
+                                  },
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElementsTimeout": 0,
+                                  "WaitOnElements": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                            "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Vendor Contract VC-3541",
+                                            "CompareMode": 5,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "VendorContractVC3541"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "ZoqzfzZMQifQ437a/bAQhfkYWqQ=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "CloudServiceDiv",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagName=div"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TextContent=Cloud Service"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "InnerText=Cloud Service"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 8,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 2,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datapage24uxy5lso.pi3",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "bdcec9d3-6ba3-46f2-9c0b-83791188036e",
+                              "Description": "Extract 'TextContent' on 'OnPremiseDiv' into DataBindVariable $()",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                "__value": {
+                                  "Verification": {
+                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                    "__value": {
+                                      "CompareType": 2,
+                                      "SegmentType": 3,
+                                      "ExpectedString": "On-Premise",
+                                      "DataBindVariableName": "",
+                                      "Timeout": 30000,
+                                      "CheckInterval": 500,
+                                      "EnsureStateIsCurrent": false,
+                                      "Pause": 0,
+                                      "WaitOnElementsTimeout": 30000,
+                                      "UseStepWaitOnElementsTimout": true,
+                                      "WaitOnElements": true,
+                                      "RunsAgainstVersion": "",
+                                      "Constraints": {
+                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                        "__value": {
+                                          "ConstraintValues": {}
+                                        }
+                                      },
+                                      "Elements": {
+                                        "textTarget": {
+                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                          "__value": {
+                                            "Name": "textTarget",
+                                            "Region": null,
+                                            "Page": {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                              "__value": {
+                                                "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                "BaseUrl": "",
+                                                "EquivalentUrls": [],
+                                                "Fragment": "",
+                                                "Title": "Vendor Contract VC-3541",
+                                                "CompareMode": 5,
+                                                "AlwaysUseTitleInCompare": false,
+                                                "FriendlyName": "VendorContractVC3541"
+                                              }
+                                            },
+                                            "Frame": null,
+                                            "FindExpression": {
+                                              "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                              "__value": {
+                                                "uniqueKey": "loFnanhhltNmNNSwsKLXZbdZmKE=",
+                                                "NodeKind": 4,
+                                                "TechnologyType": 1,
+                                                "Name": "OnPremiseDiv",
+                                                "FindExpressions": [
+                                                  {
+                                                    "Key": 1,
+                                                    "Value": {
+                                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                      "__value": {
+                                                        "Clauses": [
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TagName=div"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TextContent=On-Premise"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "InnerText=On-Premise"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "Constraints": [],
+                                                        "ChainStops": []
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]",
+                                                "DataBindingExpressions": {}
+                                              }
+                                            },
+                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                            "IsIndependent": false,
+                                            "DomStateKey": "",
+                                            "TechnologyType": 1,
+                                            "Version": 200
+                                          }
+                                        }
+                                      },
+                                      "StepType": 16,
+                                      "LogMessageOnFailure": "",
+                                      "EditorType": "",
+                                      "DataBindingExpressions": {
+                                        "ExpectedString": "$(Where would PDS data be stored)"
+                                      }
+                                    }
+                                  },
+                                  "Branches": {
+                                    "1": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": [
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "be8451b4-bbed-4172-8d6b-4026679dfe75",
+                                                "Description": "Desktop command: LeftClick on OnPremiseCheckBox",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                  "__value": {
+                                                    "Focus": true,
+                                                    "DesktopActionType": 0,
+                                                    "OffSet": {
+                                                      "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                                      "__value": "0, 0, Percentage, AbsoluteCenter"
+                                                    },
+                                                    "UsejQuery": false,
+                                                    "ClosesBrowser": false,
+                                                    "AjaxTimeout": 0,
+                                                    "Pause": 0,
+                                                    "WaitOnElementsTimeout": 30000,
+                                                    "UseStepWaitOnElementsTimout": true,
+                                                    "WaitOnElements": true,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "target": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "target",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                              "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Vendor Contract VC-3541",
+                                                              "CompareMode": 5,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "VendorContractVC3541"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "UrrwoUgMMPea6xpnJYq5Lx4Bfnk=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "OnPremiseCheckBox",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "id=OnPremise"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "tagname=input"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[2]",
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 1,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "datapage2eqlyprih.0zl",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "Description": "IF ({0})",
+                                        "CustomDescription": null,
+                                        "Order": 0,
+                                        "Branch": 1,
+                                        "Visible": true
+                                      }
+                                    },
+                                    "0": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": []
+                                        },
+                                        "Description": "ELSE",
+                                        "CustomDescription": null,
+                                        "Order": 1,
+                                        "Branch": 0,
+                                        "Visible": true
+                                      }
+                                    }
+                                  },
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElementsTimeout": 0,
+                                  "WaitOnElements": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                            "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Vendor Contract VC-3541",
+                                            "CompareMode": 5,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "VendorContractVC3541"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "loFnanhhltNmNNSwsKLXZbdZmKE=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "OnPremiseDiv",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagName=div"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TextContent=On-Premise"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "InnerText=On-Premise"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 8,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 3,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datapage2cihmzdf4.eyc",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "180e4313-0f46-49f7-a72b-a67fc5985511",
+                              "Description": "IF (Extract 'TextContent' on 'SupplierHostedDiv' into DataBindVariable $())",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                "__value": {
+                                  "Verification": {
+                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                    "__value": {
+                                      "CompareType": 2,
+                                      "SegmentType": 3,
+                                      "ExpectedString": "Supplier Hosted",
+                                      "DataBindVariableName": "",
+                                      "Timeout": 30000,
+                                      "CheckInterval": 500,
+                                      "EnsureStateIsCurrent": false,
+                                      "Pause": 0,
+                                      "WaitOnElementsTimeout": 30000,
+                                      "UseStepWaitOnElementsTimout": true,
+                                      "WaitOnElements": true,
+                                      "RunsAgainstVersion": "",
+                                      "Constraints": {
+                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                        "__value": {
+                                          "ConstraintValues": {}
+                                        }
+                                      },
+                                      "Elements": {
+                                        "textTarget": {
+                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                          "__value": {
+                                            "Name": "textTarget",
+                                            "Region": null,
+                                            "Page": {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                              "__value": {
+                                                "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                "BaseUrl": "",
+                                                "EquivalentUrls": [],
+                                                "Fragment": "",
+                                                "Title": "Vendor Contract VC-3541",
+                                                "CompareMode": 5,
+                                                "AlwaysUseTitleInCompare": false,
+                                                "FriendlyName": "VendorContractVC3541"
+                                              }
+                                            },
+                                            "Frame": null,
+                                            "FindExpression": {
+                                              "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                              "__value": {
+                                                "uniqueKey": "KQbdWfHeqjtVp8xq38bvJ5rxMFs=",
+                                                "NodeKind": 4,
+                                                "TechnologyType": 1,
+                                                "Name": "SupplierHostedDiv",
+                                                "FindExpressions": [
+                                                  {
+                                                    "Key": 1,
+                                                    "Value": {
+                                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                      "__value": {
+                                                        "Clauses": [
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TagName=div"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TextContent=Supplier Hosted"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "InnerText=Supplier Hosted"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "Constraints": [],
+                                                        "ChainStops": []
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                                                "DataBindingExpressions": {}
+                                              }
+                                            },
+                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                            "IsIndependent": false,
+                                            "DomStateKey": "",
+                                            "TechnologyType": 1,
+                                            "Version": 200
+                                          }
+                                        }
+                                      },
+                                      "StepType": 16,
+                                      "LogMessageOnFailure": "",
+                                      "EditorType": "",
+                                      "DataBindingExpressions": {
+                                        "ExpectedString": "$(Where would PDS data be stored)"
+                                      }
+                                    }
+                                  },
+                                  "Branches": {
+                                    "1": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": [
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "f5f6f946-6663-4246-9401-6cd9d3c78d24",
+                                                "Description": "Desktop command: LeftClick on SupplierHostedCheckBox",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                  "__value": {
+                                                    "Focus": true,
+                                                    "DesktopActionType": 0,
+                                                    "OffSet": {
+                                                      "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                                      "__value": "0, 0, Percentage, AbsoluteCenter"
+                                                    },
+                                                    "UsejQuery": false,
+                                                    "ClosesBrowser": false,
+                                                    "AjaxTimeout": 0,
+                                                    "Pause": 0,
+                                                    "WaitOnElementsTimeout": 30000,
+                                                    "UseStepWaitOnElementsTimout": true,
+                                                    "WaitOnElements": true,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "target": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "target",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                              "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Vendor Contract VC-3541",
+                                                              "CompareMode": 5,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "VendorContractVC3541"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "inzJbdUHE30BThK10Jrwif6HEhs=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "SupplierHostedCheckBox",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "id=SupplierHosted"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "tagname=input"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[2]",
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 1,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "datapage23a0c4tcj.lpq",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "Description": "IF ({0})",
+                                        "CustomDescription": null,
+                                        "Order": 0,
+                                        "Branch": 1,
+                                        "Visible": true
+                                      }
+                                    },
+                                    "0": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": []
+                                        },
+                                        "Description": "ELSE",
+                                        "CustomDescription": null,
+                                        "Order": 1,
+                                        "Branch": 0,
+                                        "Visible": true
+                                      }
+                                    }
+                                  },
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElementsTimeout": 0,
+                                  "WaitOnElements": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                            "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Vendor Contract VC-3541",
+                                            "CompareMode": 5,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "VendorContractVC3541"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "KQbdWfHeqjtVp8xq38bvJ5rxMFs=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "SupplierHostedDiv",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagName=div"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TextContent=Supplier Hosted"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "InnerText=Supplier Hosted"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 8,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 4,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datapage2tzs3zfwq.32w",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "b7d974f5-650f-4f04-b781-b268842704e0",
+                              "Description": "Extract 'TextContent' on 'OtherPleaseDiv' into DataBindVariable $()",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                "__value": {
+                                  "Verification": {
+                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                    "__value": {
+                                      "CompareType": 2,
+                                      "SegmentType": 3,
+                                      "ExpectedString": "Other (Please Specify)",
+                                      "DataBindVariableName": "",
+                                      "Timeout": 30000,
+                                      "CheckInterval": 500,
+                                      "EnsureStateIsCurrent": false,
+                                      "Pause": 0,
+                                      "WaitOnElementsTimeout": 30000,
+                                      "UseStepWaitOnElementsTimout": true,
+                                      "WaitOnElements": true,
+                                      "RunsAgainstVersion": "",
+                                      "Constraints": {
+                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                        "__value": {
+                                          "ConstraintValues": {}
+                                        }
+                                      },
+                                      "Elements": {
+                                        "textTarget": {
+                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                          "__value": {
+                                            "Name": "textTarget",
+                                            "Region": null,
+                                            "Page": {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                              "__value": {
+                                                "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                "BaseUrl": "",
+                                                "EquivalentUrls": [],
+                                                "Fragment": "",
+                                                "Title": "Vendor Contract VC-3541",
+                                                "CompareMode": 5,
+                                                "AlwaysUseTitleInCompare": false,
+                                                "FriendlyName": "VendorContractVC3541"
+                                              }
+                                            },
+                                            "Frame": null,
+                                            "FindExpression": {
+                                              "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                              "__value": {
+                                                "uniqueKey": "C/zRh/xs6X6gk0iznVq2CZBOUYA=",
+                                                "NodeKind": 4,
+                                                "TechnologyType": 1,
+                                                "Name": "OtherPleaseDiv",
+                                                "FindExpressions": [
+                                                  {
+                                                    "Key": 1,
+                                                    "Value": {
+                                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                      "__value": {
+                                                        "Clauses": [
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TagName=div"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "TextContent=Other (Please Specify)"
+                                                            }
+                                                          },
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "InnerText=Other (Please Specify)"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "Constraints": [],
+                                                        "ChainStops": []
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]",
+                                                "DataBindingExpressions": {}
+                                              }
+                                            },
+                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                            "IsIndependent": false,
+                                            "DomStateKey": "",
+                                            "TechnologyType": 1,
+                                            "Version": 200
+                                          }
+                                        }
+                                      },
+                                      "StepType": 16,
+                                      "LogMessageOnFailure": "",
+                                      "EditorType": "",
+                                      "DataBindingExpressions": {
+                                        "ExpectedString": "$(Where would PDS data be stored)"
+                                      }
+                                    }
+                                  },
+                                  "Branches": {
+                                    "1": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": [
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "da3e9049-5c93-45da-8aca-1033f7f0c42a",
+                                                "Description": "Desktop command: LeftClick on OtherCheckBox0",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+                                                  "__value": {
+                                                    "Focus": true,
+                                                    "DesktopActionType": 0,
+                                                    "OffSet": {
+                                                      "__type": "ArtOfTest.Common.Design.ActionPoint",
+                                                      "__value": "0, 0, Percentage, AbsoluteCenter"
+                                                    },
+                                                    "UsejQuery": false,
+                                                    "ClosesBrowser": false,
+                                                    "AjaxTimeout": 0,
+                                                    "Pause": 0,
+                                                    "WaitOnElementsTimeout": 30000,
+                                                    "UseStepWaitOnElementsTimout": true,
+                                                    "WaitOnElements": true,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "target": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "target",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                                              "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Vendor Contract VC-3541",
+                                                              "CompareMode": 5,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "VendorContractVC3541"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "j1R8hfQjMHWc4eo9BbmAsSmdNfM=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "OtherCheckBox0",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "TagName=input"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "name=$PpyWorkPage$pDataSharingSecurity$pPDSDataStorage$pOther"
+                                                                          }
+                                                                        },
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "id=Other"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/input[2]",
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputCheckBox",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 1,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "datapage2f0d5cs0j.hfb",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "Description": "IF ({0})",
+                                        "CustomDescription": null,
+                                        "Order": 0,
+                                        "Branch": 1,
+                                        "Visible": true
+                                      }
+                                    },
+                                    "0": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": []
+                                        },
+                                        "Description": "ELSE",
+                                        "CustomDescription": null,
+                                        "Order": 1,
+                                        "Branch": 0,
+                                        "Visible": true
+                                      }
+                                    }
+                                  },
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElementsTimeout": 0,
+                                  "WaitOnElements": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                                            "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Vendor Contract VC-3541",
+                                            "CompareMode": 5,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "VendorContractVC3541"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "C/zRh/xs6X6gk0iznVq2CZBOUYA=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "OtherPleaseDiv",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagName=div"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TextContent=Other (Please Specify)"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "InnerText=Other (Please Specify)"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 8,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 5,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "datapage21svfdjwu.y3y",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
+                      },
+                      "Description": "IF ({0})",
+                      "CustomDescription": null,
+                      "Order": 0,
+                      "Branch": 1,
+                      "Visible": true
+                    }
+                  },
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": []
+                      },
+                      "Description": "ELSE",
+                      "CustomDescription": null,
+                      "Order": 1,
+                      "Branch": 0,
+                      "Visible": true
+                    }
+                  }
+                },
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 0,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://pdsllc-dt1.pegacloud.io/prweb/hcSYBlMOH20-aAz95BHLpQ[[*/!STANDARD",
+                          "Query": "?pyActivity=%40baseclass.doUIAction&isSDM=true&action=openAssignment&portalName=PDSWorkUser&portalThreadName=STANDARD&tabIndex=1&api=openAssignment&SkipConflictCheck=true&key=ASSIGN-WORKLIST%20PDS-CLM-WORK%20VC-3541!DATASHARINGSECURITY&contentID=dfc3e041-ecfa-c642-b389-dd2547d45d50&dynamicContainerID=5d937224-ed51-4c78-b862-181cf84a9eee&pzHarnessID=HIDF77257C8DC2FA2BE26185D60FC70EC8D",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Vendor Contract VC-3541",
+                          "CompareMode": 5,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "VendorContractVC3541"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "aRLHYmcGkOHNGb+YE82KG5HuECc=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "WhereWouldDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=div"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Where would PDS's data be stored?"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=Where would PDS's data be stored?"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[3]/main[1]/div[1]/div[1]/form[1]/div[3]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 8,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "datapage23332amhl.41i",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "PDS.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "testcase\\DataSharing_And_Security_PDS_Data.resx",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": false,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "Sheet3$",
+        "DataProvider": "Testdata.xlsx",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 5,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "DataSharing_And_Security_PDS_Data",
+    "Owner": "",
+    "Path": "testcase\\DataSharing_And_Security_PDS_Data.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "c6397415-b20f-4b6b-8507-e2eb7f01792c",
+    "Id": "c6397415-b20f-4b6b-8507-e2eb7f01792c",
+    "ProjectId": "e87d2fb2-f4af-4f71-ad24-cebabba95421",
+    "Version": 200
+  }
+}
